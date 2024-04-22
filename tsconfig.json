@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2018",                        /* Version ECMAScript cible pour la compilation */
+    "module": "commonjs",                      /* Spécifie le format de module pour la compilation (CommonJS pour Node.js) */
+    "outDir": "./dist",                        /* Répertoire de sortie pour les fichiers JavaScript compilés */
+    "rootDir": "./src",                        /* Répertoire source contenant les fichiers TypeScript */
+    "strict": true,                            /* Active les contrôles stricts du compilateur TypeScript */
+    "esModuleInterop": true,                   /* Active l'interopérabilité des modules pour les modules es6 */
+    "skipLibCheck": true,                      /* Évite la vérification des fichiers de définition de type (types déclarés dans les fichiers .d.ts) */
+    "forceConsistentCasingInFileNames": true   /* Force la cohérence de la casse des noms de fichiers */
+  },
+  "include": ["src/**/*.ts"],                 /* Spécifie les fichiers TypeScript à inclure dans la compilation */
+  "exclude": ["node_modules"]                 /* Spécifie les répertoires à exclure de la compilation */
+}
